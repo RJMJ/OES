@@ -1,0 +1,153 @@
+[Root]
+Most Recent Package=Online Examination
+
+
+[Package|Online Examination|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Edit online\Package
+
+[Package|Online Examination|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Online Examination|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Online Examination|Files Found]
+
+[Package|Online Examination|Files Released]
+
+[Package|Online Examination|Missing Dependency Information]
+D:\Program Files\Common Files\System\ado\msado20.tlb=
+D:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Online Examination|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\COMCT332.OCX=
+D:\WINDOWS\system32\Comdlg32.ocx=
+D:\WINDOWS\system32\scrrun.dll=
+D:\WINDOWS\system32\MSCOMCTL.OCX=
+D:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|Online Examination|Files Added]
+f:\edit online\data.mdb=
+
+[Package|Online Examination|Files Removed]
+f:\edit online\data.mdb=
+f:\edit online\online exam.exe=
+
+[Package|Online Examination|Files In Project]
+F:\Edit online\Online Exam.exe=No
+D:\WINDOWS\system32\MSVBVM60.DLL=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\MSBIND.DLL=Yes
+D:\WINDOWS\system32\msstdfmt.dll=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+D:\WINDOWS\system32\MSJET35.DLL=Yes
+D:\WINDOWS\system32\MSJTER35.DLL=Yes
+D:\WINDOWS\system32\MSJINT35.DLL=Yes
+D:\WINDOWS\system32\vbajet32.dll=Yes
+D:\WINDOWS\system32\expsrv.dll=Yes
+D:\WINDOWS\system32\MSRD2X35.DLL=Yes
+D:\WINDOWS\system32\MSREPL35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\WINDOWS\system32\VB5DB.DLL=Yes
+D:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+D:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+D:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+D:\WINDOWS\system32\COMCT332.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+D:\WINDOWS\system32\Comdlg32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\Edit online\data.mdb=No
+D:\WINDOWS\system32\scrrun.dll=Yes
+D:\WINDOWS\system32\msvcrt.dll=Yes
+D:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+D:\WINDOWS\system32\MSRDO20.DLL=Yes
+D:\WINDOWS\system32\RDOCURS.DLL=Yes
+
+[Package|Online Examination|Configure Registry Files]
+Applicable=No
+
+[Package|Online Examination|Configure Remote Servers]
+Applicable=No
+
+[Package|Online Examination|Install Locations]
+F:\Edit online\Online Exam.exe=$(AppPath)
+D:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+D:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+D:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+D:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+D:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+D:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+D:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+D:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+F:\Edit online\data.mdb=$(AppPath)
+D:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+D:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+D:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+
+[Package|Online Examination|Configure Shared Files]
+Applicable=Yes
+F:\Edit online\Online Exam.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+F:\Edit online\data.mdb=No
+
+[Package|Online Examination|Distribution]
+Type=single
+Size=
+Title=Online Exam
+
+[Package|Online Examination|Package]
+PackageFolder=F:\Edit online\Package
+ProjectFolder=F:\Edit online
+ServerSideCab=
+File1=F:\Edit online\Package\setup.exe
+File2=F:\Edit online\Package\Setup.Lst
+File3=F:\Edit online\Package\Online Exam.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Online Examination|IconGroups]
+Group0=Online Exam
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Online Examination|Online Exam]
+Icon1="Online Exam.exe"
+Title1=Online Exam
+StartIn1=$(AppPath)
+Key1=Icon1

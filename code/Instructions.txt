@@ -1,0 +1,11 @@
+Instructions:-
+
+Firstly a list of subject would be displayed from where you would have to select the subject  you want to attempt first.
+You would have to select answer from options displayed in radio buttons.
+
+After you have completed a question, you move to the next question by clicking "Next" button. You can't change the answer of the answered questions. 
+To change the subject click on finished module.
+
+If you quit the exam in between then you would be awarded marks for those questions you have attempted. You have 30 minutes to answer. If you run out of time, you will be given a score of the questions you have attempted.
+
+Good luck!
